@@ -51,6 +51,28 @@ exports.config = {
         platformName: 'Android',
         'appium:deviceName': 'Pixel',
         'appium:app': join(process.cwd(), './FasTip.apk')
+        
+        /* Android Parallel tests
+        udid: emulator-5589,
+        systemPort: 8200,
+        chromeDriverPort: 84039
+
+
+        /* IOS Capabilities
+        platformName: 'iOS',
+        platformVersion: '7.1',
+        deviceName: 'iPhone Simulator',
+        app: join(process.cwd(), './FasTip.apk'
+
+        IOS Parallel tests
+        udid: emulator-5589,
+        platformName: 'iOS',
+        platformVersion: '7.1',
+        deviceName: 'iPhone Simulator',
+        wdaLocalPort: 67890
+
+        */
+
     }],
     //
     // ===================
